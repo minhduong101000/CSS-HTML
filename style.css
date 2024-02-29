@@ -1,0 +1,35 @@
+body>div{
+    margin: auto;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity .2s ease;
+}
+
+.btn:honer{
+opacity: 0.8;
+}
+
+.btn + .btn{
+    margin-left: 18px;
+}
+
+.btn--success{
+background-color: green;
+}
+.btn--warnning{
+    background-color: yellow;
+
+}
+.btn--danger{
+    background-color: red;
+
+}
